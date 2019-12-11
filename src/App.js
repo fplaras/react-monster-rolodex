@@ -59,6 +59,9 @@ class App extends Component {
         <Row className='p-2'>
           <Container>
             <Col>
+            <h1 className='text-white'>Monsters Rolodex</h1>
+            </Col>
+            <Col>
               <SearchBox
                 placeholder='search monsters'
                 handleChange={this.handleChange}>

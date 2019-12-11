@@ -14,12 +14,12 @@ export const CardList = (props) => {
                 ))
             }
         </div>*/
-        <Row className='bg-light'>
+        <Row>
             <Container>
                 <CardColumns>
                 {
                     props.monsters.map(monster => (
-                        <Card key={monster.id} className='shadow'>
+                        <Card key={monster.id} className='shadow bg-light'>
                             <Card.Img variant='top' src={`https://robohash.org/${monster.id}?set=set2&size=180x180`}></Card.Img>
                             <Card.Header><b>{monster.name}</b></Card.Header>
                             <Card.Body>

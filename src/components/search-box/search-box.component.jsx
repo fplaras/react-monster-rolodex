@@ -7,6 +7,7 @@ import React from 'react';
 const SearchBox = ({ placeholder, handleChange}) => {
     return(
     <input 
+    className='form-control'
     type='search' 
     placeholder={placeholder}
     onChange={handleChange}>
